@@ -3,8 +3,7 @@
   "version": "1.97.0",
   "private": true,
   "engines": {
-    "node": ">=20.15 <=22",
-    "pnpm": ">=10.2.1"
+    "node": ">=20.15.0 <=22.16.0"
   },
   "packageManager": "pnpm@10.11.1",
   "scripts": {
@@ -75,9 +74,7 @@
     "zx": "^8.1.4"
   },
   "pnpm": {
-    "onlyBuiltDependencies": [
-      "sqlite3"
-    ],
+    "onlyBuiltDependencies": ["sqlite3"],
     "overrides": {
       "@azure/identity": "^4.3.0",
       "@types/node": "^20.17.50",
